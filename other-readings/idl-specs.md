@@ -1,0 +1,17 @@
+# Interface Description Languages Specification
+
+* [Rapido](http://www.www2015.it/documents/proceedings/companion/p1509.pdf)
+* [Modeling RESTful Applications](http://ws-rest.org/2011/proc/a4-schreier.pdf)
+* [Formal Modeling of RESTful APIs using finite state machines](https://pdfs.semanticscholar.org/3407/024c20e9b788576678707d3b3f0a27a0aa09.pdf)
+* [A model-driven approach for REST compliant services](http://www.iaas.uni-stuttgart.de/RUS-data/INPROC-2014-23%20-%20A%20model%20driven%20approach%20for%20REST%20compliant%20services.pdf)
+* [Hydra](https://www.hydra-cg.com/spec/latest/core/)
+* [Atom Publishing Protocol](https://tools.ietf.org/html/rfc5023) + [Atom Syndication Format](https://tools.ietf.org/html/rfc4287)
+* [WSDL](https://www.w3.org/TR/wsdl/) + [SAWSDL](https://www.w3.org/TR/sawsdl/)
+* [WADL](https://www.w3.org/Submission/wadl/)
+* [OpenAPI/Swagger](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.0.md)
+* [API Blueprint](https://apiblueprint.org/documentation/) + [MSON](https://apiblueprint.org/documentation/mson/specification.html)
+* [hREST](https://ieeexplore.ieee.org/document/4740521) + microWSMO [1](http://sweet.kmi.open.ac.uk/pub/microWSMO.pdf) & [2](https://www.researchgate.net/publication/235720344_MicroWSMO_Semantic_Description_of_RESTful_Services)
+* [RESTdesc](http://restdesc.org/)
+* [RADL](https://github.com/restful-api-description-language/RADL/blob/master/specification/spec.md)
+* [RAML](https://github.com/raml-org/raml-spec/blob/master/versions/raml-10/raml-10.md/)
+* [I/O Docs](https://github.com/mashery/iodocs)

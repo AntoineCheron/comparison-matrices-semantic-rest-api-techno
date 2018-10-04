@@ -31,7 +31,7 @@ We then verified (step 5) that the classification criteria suited the needs we h
 
 As a final step (step 6), we read the specifications again to validate that the selected criteria highlighted differences and commonalities well, and to verify results.
 
-All criteria are listed in [this table](./tables/criteria). Only machine-processable descriptions are considered.
+All criteria are listed in [this table](./tables/criteria.png). Only machine-processable descriptions are considered.
 
 ## Available resources
 

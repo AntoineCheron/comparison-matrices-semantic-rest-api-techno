@@ -1,37 +1,26 @@
-# A guiding Comparison Matrix of Semantic Restful Web APIs enabling Technologies - Methodology
+# Comparison matrices of Semantic REST API Technologies - Methodology
 
-The methodology used to obtain the classification matrix and criteria presented in *A guiding Comparison Matrix of Semantic Restful Web APIs enabling Technologies*.
+The methodology and raw material used to design the comparison matrices and its criteria presented in *Comparison matrices of Semantic REST API Technologie*.
 
 ## Methodology description
 
-The design of the comparison matrix follows a 5 steps sequential process:
+The design of our comparison matrices follows a 5 steps sequential process: *(i)* **search** for candidate technologies, *(ii)* **select** candidate technologies, *(iii)* **read** carefully each candidate technology, *(iv)* **elaborate fine grain criteria** to characterize and differentiate technologies, *(v)* **verification** that the elaborated criteria highlighted the differences between technologies. Several steps of refinement were needed to avoid duplicating criteria or hiding important details, by looping on step *(iv)* and *(v)*.
 
-1. Looking for candidate technologies
-2. Selecting candidate technology
-3. Deep reading and understanding of each candidate technology
-4. Elaboration of fine grain criteria to characterized and differentiate technologies
-5. Verification that the elaborated criteria suited all technologies and the need from XXX developers
-6. Verification that the elaborated criteria highlighted the differences between technologies
+The research of candidate technologies (step i) was done by:
 
-The research of candidate technology (step 1) was done through the following steps:
+1. Searching Google and Google Scholar for Semantic REST Technologies using compositions of keywords from the set: ["web", "semantic", "restful", "rest", "service", "API", "interface", "description", "documentation", "language", "modeling", "hypermedia", "document", "format", "RDF", "data-interchange", "linked data", "hateoas", "rest api", "framework"];
+2. Searching Google Scholar for tools automating tasks from services description, using keywords: "matchmakers", "service composition", "service discovery", "rest service analysis", "automated mashups", we then selected other papers and technologies from their references and the papers that cite those we selected;
+3. Searching the proceedings of ICWE and WS-REST. 
 
-  1. Identification of the technologies to document APIs. Methods: (i) searching Google and Google Scholar for "service description", "web service description", "web API description", "semantic web service description", "interface description language", "restful service description", "rest API documentation", "rest modeling", "web service modeling" (ii) searching for tools automating tasks from services description, using keywords: "matchmakers", "service composition", "service discovery", "rest service analysis" and (iii) reading the thesis [Third Generation Web APIs](http://www.markus-lanthaler.com/research/third-generation-web-apis-bridging-the-gap-between-rest-and-linked-data.pdf) and [Description languages for REST APIs-state of the art, comparison, and transformation](https://elib.uni-stuttgart.de/bitstream/11682/9622/1/MasterThesis_AntonScherer.pdf).
-  2. Identification of the technologies to exchange textual documents representing data across distributed systems. Method: (i) searching Google and Google Scholar for: "hypermedia document", "hypermedia format", "RDF format", "RDF document", "data-interchange format", "hypermedia media-type", "semantic web media-type".
-  3. Identification of the technologies to implement web APIs. Method: searching Google and Google Scholar for "hateoas framework", "hypermedia framework", "semantic restful framework", "semantic web framework", "linked data framework", "rest API framework", "restful service framework".
-  4. Identification of tools to ease the selection of a features set for Web APIs. Method: searching Google and Google Scholar for "rest api best practices", "richardson maturity model", "semantic rest maturity model", "hypermedia api maturity model", "web api best practices", "web api/services categorization".
-  5. Selecting papers related to building and evaluating Web APIs from the proceedings of the International Conference on Web Engineering and WS-REST.
+We selected 81 papers, standards, articles and web pages (step ii) from their abstract or introduction. We selected documents that were the specification of an interface definition language or model, a framework that supports HATEOAS features, an interchange format that supports RDF or HATEOAS features, a comparison between these technologies or a tool leveraging them. Frameworks to build Semantic Web Services were excluded because they are based on triples which are too far from the resource-oriented design of REST. We opened our research to technologies from the 1990s to today and retained technologies that are still available today.
 
-From these researches, we selected papers (step 2), articles and web pages that were either the description of a technology, a comparison of technologies or a tool leveraging these technologies. We opened our research to technologies from the 1990s to today. 
-From the selected papers and articles, we listed the IDLs, data-interchange formats and frameworks still available to use today.
-Then, we read the specification of each chosen technology (step 3) and elaborate classification criteria (step 4). 
+As a next step, we read the specification of each chosen technology (step iii) and elaborate classification criteria (step iv). We included those of the [H Factor](http://amundsen.com/hypermedia/hfactor/) which *is a measurement of the level of hypermedia support and sophistication of a media-type*. Others were carefully designed to highlight differences between technologies in the area of Semantic REST, based on the core design of the technologies, the features they provide and the details of the WS3 maturity model. All the raw material to elaborate this classification is available in this repository.
 
-<!-- https://anonymous.4open.science/repository/14273e30-d332-446a-b5a0-df91239532ab/. -->
+As a final step (step v), we read the specifications again to verify results and validate that the selected criteria highlighted differences and commonalities well.
 
-We then verified (step 5) that the classification criteria suited the needs we had on previous projects we made at XXX for large companies.
+### Popularity criteria
 
-As a final step (step 6), we read the specifications again to validate that the selected criteria highlighted differences and commonalities well, and to verify results.
-
-All criteria are listed in [this table](./tables/criteria.png). Only machine-processable descriptions are considered.
+We included a popularity criteria to provide a rough idea of the community support and the likelihood of the technology to last in time. The popularity score is between 0 and 2. It respects the following rules: **0 -** Not enough to reach 1; **1 -** More than 100 questions on stack overflow AND (2500+ NPM weekly downloads OR 100+ maven usages); **2 -** More than 400 questions on stack overflow AND (more than 500.000 total downloads OR more than 15.000 NPM weekly downloads OR more than 500 maven usages).
 
 ## Available resources
 
@@ -40,7 +29,6 @@ All criteria are listed in [this table](./tables/criteria.png). Only machine-pro
 * [Interface Description Languages Specifications](./other-readings/idl-specs.md)
 * [Data Interchange Format Specifications](./other-readings/dif-specs.md)
 * [Frameworks Documentation](./other-readings/frameworks-doc.md)
-* [Criteria](./tables/criteria)
 * [IDL Classification Matrix](./tables/IDL.png)
 * [Data Interchange Format Classification Matrix](./tables/DIF.png)
 * [Frameworks Matrix](./tables/frameworks.png)
